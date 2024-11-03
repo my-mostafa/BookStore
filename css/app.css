@@ -1,0 +1,87 @@
+
+body {
+    background-color:#80DEEA;
+   
+}
+form {
+   margin: 20px 160px;
+   width: 1000px;
+
+}
+.tb {
+   margin: 20px 160px;
+   width: 1000px;
+
+}
+
+.ddf::after {
+    content: " ";
+    background-color: black;
+    height: 1px;
+    width: 1006px;
+    display: inline-block;
+    margin-top: 25px;
+
+    
+}
+.tb {
+    display: flex;
+    gap: 150px;
+    margin-top: 10px;
+}
+
+
+.Titleb {
+    width: 200px;
+    height: 20px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Authorb {
+    width: 200px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Yearb {
+    width: 200px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+label {
+    margin: 10px 0px;
+}
+input {
+    width: inherit;
+    height: 25px;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    width: 1008px;
+    background-color:#F57C00 ;
+    border-radius: 5px;
+    border-color: #F57C00;
+    height: 29px;
+}
+
+input , label {
+    display: block;
+   
+}
+h1 {
+    text-align: center;
+    color: #F57C00;
+}
